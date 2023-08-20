@@ -1,0 +1,177 @@
+body{
+    background-color:rgb(37, 32, 32);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#button{
+    background-color: aliceblue;
+    text-decoration-color: aliceblue;
+    width: 13rem;
+    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem ;
+    font-size: 1.5rem;
+    height: 5rem;
+    border: 0.2rem solid  black;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+
+.button{
+    background-color: aliceblue;
+    text-decoration-color: aliceblue;
+    width: 13rem;
+    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem ;
+    font-size: 1.5rem;
+    height: 5rem;
+    border: 0.2rem solid  black;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+
+#button:hover{
+    background-color: antiquewhite;
+    box-shadow: 0 0 0 0;
+}
+
+.button:hover{
+    background-color: antiquewhite;
+    box-shadow: 0 0 0 0;
+}
+
+.check{
+    height: 10rem;
+    margin-left: 5.5rem;
+}
+
+.empty1{
+    height: 0.5rem;
+    background-color: antiquewhite;
+    color: antiquewhite;
+    width: 80rem;
+}
+
+.empty2{
+    height: 0.5rem;
+    background-color: antiquewhite;
+    color: antiquewhite;
+    /* margin-top: 0rem; */
+    /* width: 98rem; */
+}
+
+.first{
+    text-decoration-color: aliceblue;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    margin-left: 50rem;
+    margin-top: 2rem;
+    font-family: cursive;
+}
+
+.Guessing{
+    color: antiquewhite;
+    margin-top: 5rem;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: solid;
+    text-shadow: 1rem;
+    margin-left: 30rem;
+    font-family: cursive;
+    vertical-align: middle;
+    /* font-weight: 250; */
+    font-size: 1.5rem;
+}
+
+.highScore{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 3rem;
+    color: antiquewhite;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: solid;
+    text-shadow: 1rem;
+    font-family: cursive;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lower{
+    display: flex;
+    flex-direction: row;
+}
+
+.idk{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    width: 20%;
+    height: 5rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    border: 0.3rem solid  black;
+    font-size: 400%;
+}
+
+.myText{
+    font-family: cursive;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    color: antiquewhite;
+    margin-top: 5rem;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+
+.questionMark{
+    justify-content: flex;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 3rem;
+    height: 50;
+    background-color:antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 4rem;
+    width: 14rem;
+    margin-left: 33rem;
+    margin-top: 0rem;
+}
+
+
+.score{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 3rem;
+    color: antiquewhite;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: solid;
+    text-shadow: 1rem;
+    font-family: cursive;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+}
